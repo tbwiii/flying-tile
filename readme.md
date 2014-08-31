@@ -15,3 +15,8 @@ After that you can run `gulp` when you're writing styles. The default task watch
 ## Other notes
 There is no need to upload the `node_modules` and `bower_components` folders when you upload your theme to the server.
 
+## Todo
+* add required and common WordPress templates
+* Add screenshot.png
+* add concatenate and minify JavaScipt task
+
