@@ -1,0 +1,12 @@
+{
+  "name": "flying-tile",
+  "version": "0.0.0",
+  "authors": [
+    "Ted Waller <ted.waller.iii@gmail.com>"
+  ],
+  "description": "a skeleton WordPress theme",
+  "license": "MIT",
+  "dependencies": {
+    "barekit": "~0.5.0"
+  }
+}
