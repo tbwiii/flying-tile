@@ -1,6 +1,8 @@
 # Flying Tile
 A ready-to-be-custom WordPress theme utilizing [Gulp](http://gulpjs.com/), [Stylus](http://learnboost.github.io/stylus/), and [Barekit](http://a2labs.github.io/barekit)
 
+![screenshot.png](screenshot.png)
+
 ## How to use
 Clone or download the zip file to your `wp-themes` folder.
 
