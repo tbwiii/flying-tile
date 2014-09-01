@@ -14,7 +14,7 @@
     	<header>
 			<a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
 
-            <button id="toggle-nav" data-toggle-id="master-nav">Toggle Navigation</button>
+            <button id="toggle-nav" class="master-nav-toggle-button" data-toggle-id="master-nav">Toggle Navigation</button>
             <nav id="master-nav" class="master-nav">
                 <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
             </nav>

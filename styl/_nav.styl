@@ -1,7 +1,17 @@
 .master-nav {
 	display none
+
+	+breakpoint(30em) {
+		display block
+	}
 }
 
 .mobile-menu-visible {
 	display block
+}
+
+.master-nav-toggle-button {
+	+breakpoint(30em) {
+		display: none;
+	}
 }

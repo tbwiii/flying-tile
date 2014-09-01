@@ -1,0 +1,24 @@
+// Media queries
+// Modifies BareKit's MQ mixin to allow custom breakpoint sizes
+breakpoint($size) {
+  if $size == "small" {
+    @media (min-width: $small) {
+      {block}
+    }
+  }
+  if $size == "medium" {
+    @media (min-width: $medium) {
+      {block}
+    }
+  }
+  if $size == "large" {
+    @media (min-width: $large) {
+      {block}
+    }
+  }
+  else {
+  	@media (min-width: $size) {
+      {block}
+    }
+  }
+}

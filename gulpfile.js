@@ -10,7 +10,7 @@ gulp.task('stylus', function () {
   gulp.src('./styl/styles.styl')
     .pipe(stylus())
     .pipe(prefix())
-    .pipe(minifyCSS({keepBreaks:false}))
+    .pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('./css'))
 });
 
