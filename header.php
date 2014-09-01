@@ -10,7 +10,12 @@
 		<?php wp_head(); ?>
 		<!-- End wp_head -->
  	</head>
-    <body>
+    <body <?php body_class(); ?>>
     	<header>
-			<h1><?php bloginfo( 'name' ); ?></h1>
+			<a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+
+            <button id="toggle-nav" data-toggle-id="master-nav">Toggle Navigation</button>
+            <nav id="master-nav" class="master-nav">
+                <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
+            </nav>
     	</header>

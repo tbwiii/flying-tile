@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+
 // plugins
 var watch = require('gulp-watch'),
 	stylus = require('gulp-stylus'),
@@ -24,7 +25,6 @@ gulp.task('move', function () {
 gulp.task('watch', function () {
 	gulp.watch('./styl/*.styl', ['stylus']);
 });
-
 
 gulp.task('default', ['watch']);
 

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<section class="content-index">
+	<section class="content-single">
 		<?php if ( have_posts() ): ?>
 			<?php while ( have_posts() ) : the_post() ?>
 				<article>
