@@ -17,6 +17,5 @@ There is no need to upload the `node_modules` and `bower_components` folders whe
 
 ## Todo
 * add required and common WordPress templates
-* Add screenshot.png
 * add concatenate and minify JavaScipt task
 
