@@ -35,7 +35,7 @@
 	}
 
 	function ft_add_scripts() {
-		wp_register_script( 'ft-scripts', get_template_directory_uri() . '/js/scripts.js', array(), '',true );
+		wp_register_script( 'ft-scripts', get_template_directory_uri() . '/js/all.min.js', array('jquery'), '',true );
 
 	    wp_enqueue_script( 'ft-scripts' );
 	    wp_enqueue_script( 'jquery' );
