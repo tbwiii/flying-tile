@@ -12,8 +12,8 @@ Run `npm install` and then `bower install` to install all the development depend
 
 Run `gulp build` to move dependency files that need to exist on the server.
 
-After that you can run `gulp` when you're writing styles. The default task watches and compiles style changes.
+After that you can run `gulp` while you're writing CSS or JavaScript.
 
 ## Other notes
-There is no need to upload the `node_modules` and `bower_components` folders when you upload your theme to the server.
+There is no need to upload the `node_modules` and `bower_components` folders when you upload your theme to the server.when you upload your theme to the server.
 
